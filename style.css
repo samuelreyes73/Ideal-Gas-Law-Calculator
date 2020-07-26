@@ -1,0 +1,51 @@
+/*General configuration*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 26px;
+}
+
+/*Navigator bar*/
+.nav-bar{
+    background-color: #2d2c2c;
+    font-size: 20px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 1300px;
+}
+
+.nav-bar ul li{
+    padding: 10px;
+}
+
+a{
+    color: #dcdbda;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #7d7c7c;
+}
+
+/*Page content*/
+.page-content h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    color: #2d2c2c;
+}
+
+.page-content p{
+    text-align: justify;
+    margin-top: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
